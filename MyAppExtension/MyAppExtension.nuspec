@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MyAppExtension</id>
+    <title>Output environment variables</title>
+    <version>1.0.1</version>
+    <authors>Seongtae Jeong</authors>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/stjeong/MyAppExtension</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A sample aspx Site Extension that shows all of the environment variables in the app service</description>
+    <iconUrl>https://github.com/stjeong/MyAppExtension/master/MyAppExtension50x50.png</iconUrl>
+    <tags>sample web app extension</tags>
+  </metadata>
+  <files>
+    <file src="**\*.*" target="content" />
+  </files>
+</package>
